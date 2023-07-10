@@ -6,10 +6,10 @@
         public $price;
         public $type;
 
-        function __construct($name, $price, $type){
+        function __construct($image, $name, $type, $price){
             $this -> image = $image;
             $this -> name = $name;
-            $this -> price = $prie;
+            $this -> price = $price;
             $this -> type = $type;
         }
     }
