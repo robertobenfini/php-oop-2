@@ -37,6 +37,9 @@
     <body>
         <div class="container">
             <div class="row">
+                <div class="col-12 my-4">
+                    <h1>BoolShop</h1>
+                </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                     <div class="card p-3">
                         <img src="<?php echo $food1->image?>" alt="img">
@@ -58,7 +61,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-                    <div class="card">
+                    <div class="card p-3">
                         <img src="<?php echo $food3->image?>" alt="img">
                         <div> <?php echo $food3->name?> </div>
                         <div> <i class="fa-solid fa-cat"></i> <?php echo $food3->type?> </div>
@@ -78,7 +81,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 ">
-                    <div class="card">
+                    <div class="card p-3">
                         <img src="<?php echo $accessories1->image?>" alt="img">
                         <div> <?php echo $accessories1->name?> </div>
                         <div> <i class="fa-solid fa-dove"></i> <?php echo $accessories1->type?> </div>
@@ -108,7 +111,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-                    <div class="card">
+                    <div class="card p-3">
                         <img src="<?php echo $games2->image?>" alt="img">
                         <div> <?php echo $games2->name?> </div>
                         <div> <i class="fa-solid fa-cat"></i> <?php echo $games2->type?> </div>
